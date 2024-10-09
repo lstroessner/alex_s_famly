@@ -1,0 +1,23 @@
+body {
+  background-color: #fef9ec; /* Hier kannst du die gewünschte Farbe setzen */
+  margin-top: 40; /* Entfernt den Standard-Margin */
+}
+
+.App {
+  text-align: center;
+  margin-top: 30;
+}
+
+.slider-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 768px) {
+  .slider-container {
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+}
+
+
