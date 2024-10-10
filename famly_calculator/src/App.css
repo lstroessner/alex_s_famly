@@ -16,7 +16,6 @@ body {
 @media (max-width: 768px) {
   .slider-container {
     flex-direction: column;
-    margin-bottom: 30px;
   }
 }
 
