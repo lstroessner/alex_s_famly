@@ -38,11 +38,6 @@ const App = () => {
   return (
     <div>
       <FamlyNavbar />
-      <IconButton color="primary" aria-label="add to shopping cart">
-        <AddShoppingCartIcon />
-      </IconButton>
-      <Button variant="outlined">Outlined</Button>
-      <NavigationBar />
       <div>
         <Box sx={{ width: 300 }}>
           <Slider
