@@ -35,6 +35,9 @@ const App = () => {
   function valuetext(value) {
     return `${value}°C`;
   }
+  const handleChange = (event, newValue) => {
+    setSlider1(newValue);
+  };
   return (
     <div>
       <FamlyNavbar />
@@ -42,13 +45,14 @@ const App = () => {
         <Box sx={{ width: 300 }}>
           <Slider
             aria-label="Big steps"
-            defaultValue={1}
             getAriaValueText={valuetext}
             step={1}
             marks
             min={1}
             max={100}
             valueLabelDisplay="on"
+            value={slider1}
+            onChange={handleChange}
           />
         </Box>
         {/* <Slider label="Slider 1" value={slider1} onChange={setSlider1} />
