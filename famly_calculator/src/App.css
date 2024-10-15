@@ -7,7 +7,7 @@ body {
   text-align: center;
   margin-top: 30;
 }
-
+/* 
 .slider-container {
   display: flex;
   justify-content: space-evenly;
@@ -17,6 +17,6 @@ body {
   .slider-container {
     flex-direction: column;
   }
-}
+} */
 
 
